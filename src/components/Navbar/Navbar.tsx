@@ -1,11 +1,10 @@
 import React from "react";
 
 interface NavLinkProps {
-  href: string;
   label: string;
 }
 
-const NavLink: React.FC<NavLinkProps> = ({ href, label }) => (
+const NavLink: React.FC<NavLinkProps> = ({  label }) => (
   <p className="px-4 mx-2 text-navItmClr text-18">{label}</p>
 );
 
@@ -23,12 +22,12 @@ const Navbar: React.FC = () => {
 
         <div className="my-auto hidden md:block lg:block">
           <ul className="flex font-kanit">
-            <NavLink href="/" label="Home" />
-            <NavLink href="/why" label="Why LimeChat" />
-            <NavLink href="/solutions" label="Solutions" />
-            <NavLink href="/pricing" label="Pricing" />
-            <NavLink href="/company" label="Company" />
-            <NavLink href="/resources" label="Resources" />
+            <NavLink label="Home" />
+            <NavLink label="Why LimeChat" />
+            <NavLink  label="Solutions" />
+            <NavLink  label="Pricing" />
+            <NavLink  label="Company" />
+            <NavLink  label="Resources" />
           </ul>
         </div>
 
