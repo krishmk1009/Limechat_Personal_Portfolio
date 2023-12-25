@@ -1,0 +1,32 @@
+.hoverBtn:hover svg{
+    transform: translateY(-3px) rotate(-45deg);
+    transition: transform 0.3s ease;
+
+
+}
+
+.hoverBtn:hover {
+    text-decoration: underline  ;
+    text-underline-offset: 8px;
+}
+
+
+@keyframes subtleBounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+.hero-img {
+  animation: subtleBounce 3s infinite;
+}
+
+/* Exclude animation on phone screens */
+@media (max-width: 767px) {
+  .hero-img {
+    animation: none; 
+  }
+}
