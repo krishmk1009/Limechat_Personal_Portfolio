@@ -43,12 +43,12 @@ const Hero: React.FC = () => {
                   href="https://drive.google.com/file/d/1GbfgzxUzoQ-GbxLZTAZxlU3zN9SjiafR/view?usp=sharing"
                   target="blank"
                 >
-                  <button className="bg-navBtnClr rounded-full p-3 px-8 font-medium text-lg w-48 transition duration-300 ease-in-out hover:bg-green-800 hover:text-white">
+                  <button className="bg-navBtnClr rounded-full p-3 px-6 font-medium md:text-lg w-48 text-16 transition duration-300 ease-in-out hover:bg-green-800 hover:text-white mr-2 md:mr-0">
                     Download CV
                   </button>
                 </a>
                 <a href="https://github.com/krishmk1009" target="blank">
-                  <button className="flex items-center p-3 px-8 font-poppins font-medium md:text-lg  hoverBtn text-[16px]">
+                  <button className="flex items-center p-3 md:px-8 px-2 font-poppins font-medium md:text-lg  hoverBtn text-[16px]">
                     Visit Github &nbsp;
                     <Arrow />
                   </button>
