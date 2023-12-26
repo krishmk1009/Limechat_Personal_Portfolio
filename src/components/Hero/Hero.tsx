@@ -48,7 +48,7 @@ const Hero: React.FC = () => {
                   </button>
                 </a>
                 <a href="https://github.com/krishmk1009" target="blank">
-                  <button className="flex items-center p-3 md:px-8 px-2 font-poppins font-medium md:text-lg  hoverBtn text-[16px]">
+                  <button className="flex items-center p-3 md:px-8 px-2 font-poppins font-medium md:text-lg  hoverBtn text-[15px]">
                     Visit Github &nbsp;
                     <Arrow />
                   </button>

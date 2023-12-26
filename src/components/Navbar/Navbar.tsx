@@ -43,7 +43,7 @@ const Navbar: React.FC = () => {
         </div>
         <div className="my-auto font-poppins  mg:hidden lg:hidden">
         <a href="https://github.com/krishmk1009" target="blank" >
-          <button className=" p-3 px-8 font-poppins font-medium text-14  hoverBtn lg:hidden md:hidden block underline underline-offset-8">
+          <button className=" p-3 px-8 font-poppins font-medium text-14 md:text-lg  hoverBtn lg:hidden md:hidden block underline underline-offset-8">
             Visit Github
           </button>
 </a>
