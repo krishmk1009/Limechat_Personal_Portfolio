@@ -14,7 +14,7 @@ const Navbar: React.FC = () => {
       <div className="flex justify-between">
         <div className="my-auto">
           <img
-            width={"164px"}
+            className="md:w-48  w-24 ml-4 md:ml-0"
             src="https://assets-global.website-files.com/6371db14913d03869b606e68/63770aaf962ed77c0123fbd7_website-logo.webp"
             alt="Logo"
           />
